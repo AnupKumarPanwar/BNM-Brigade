@@ -35,7 +35,7 @@ def send_js(path):
 @app.route('/upload', methods=['POST'])
 def upload_file():
     file = request.files['image']
-    f = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+    f = os.path.join(app.config['UPLOAD_FOLDER'], str(time.time())+file.filename)
     report_text = request.form['report_text']
     lat = request.form['lat']
     lng = request.form['lng']

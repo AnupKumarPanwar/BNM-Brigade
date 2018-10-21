@@ -47,6 +47,10 @@ import sys
 
 import tensorflow as tf
 
+import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
+
 parser = argparse.ArgumentParser()
 parser.add_argument(
     '--image', required=True, type=str, help='Absolute path to image file.')

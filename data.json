@@ -1,1 +1,1 @@
-{"data": []}
+{"data": [{"report_time": "2018-10-21 09:31:13", "image_path": "uploads/1.jpg", "fire_detected": "Yes", "report_text": "Wild fire here.", "lat": "30.78", "lng": "76.69", "fire_type": "Forest Fire"}, {"report_time": "2018-10-21 09:32:49", "image_path": "uploads/2.jpg", "fire_detected": "No", "report_text": "Cylinder blasted in the building.", "lat": "30.78", "lng": "76.69", "fire_type": "Building Fire"}]}
